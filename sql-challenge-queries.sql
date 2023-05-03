@@ -91,6 +91,7 @@ ORDER BY 1 DESC;
 
 -- 9. create view for bonus bar chard of avg salary by title
 
+CREATE VIEW avg_salaries_by_title AS
 SELECT ROUND(avg(s.salary), 2) as 'Avg salary',
        t.title as 'Employees Title'
 from employees as e
@@ -98,3 +99,7 @@ JOIN titles as t on e.emp_title_id = t.title_id
 JOIN salaries as s on e.emp_no = s.emp_no
 GROUP BY t.title
 ORDER BY 2 ASC;
+
+
+-- 10. Select Avg salary and Employees Title from view
+SELECT * FROM avg_salaries_by_title;
