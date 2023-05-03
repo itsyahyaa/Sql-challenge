@@ -61,4 +61,4 @@ Once you have a complete database, do the following:
 
 9. create view for bonus bar chard of avg salary by title.
 
-10. Select Avg salary and Employees Title from view.
+ 10. Select Avg salary and Employees Title from view.
