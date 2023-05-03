@@ -58,3 +58,7 @@ Once you have a complete database, do the following:
 7. List all employees in the Sales and Development departments, including their employee number, last name, first name, and department name.
 
 8. In descending order, list the frequency count of employee last names, i.e., how many employees share each last name.
+
+9. create view for bonus bar chard of avg salary by title.
+
+10. Select Avg salary and Employees Title from view.
